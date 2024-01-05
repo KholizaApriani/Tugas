@@ -1,0 +1,15 @@
+class MataKuliah:
+    def __init__(self, nama_mk, dosen, sks, grade):
+        self.nama_mk = nama_mk
+        self.dosen = dosen
+        self.sks = sks
+        self.grade = grade
+
+
+from class_Matakuliah import MataKuliah
+
+mk1 = MataKuliah("Pemrograman Lanjut", "Aswian Editri S, MT", 3, "B")
+mk2 = MataKuliah("Algoritma","Bq. Andriska Candra P., M.Kom", 3, "B")
+
+print(f"Nama mk {mk1.nama_mk} nama dosen {mk1.dosen} jumlah sks {mk1.sks} grade yang didapatkan {mk1.grade}")
+print(f"Nama mk {mk2.nama_mk} nama dosen {mk2.dosen} jumlah sks {mk2.sks} grade yang didapatkan {mk2.grade}")
