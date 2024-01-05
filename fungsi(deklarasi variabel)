@@ -1,0 +1,27 @@
+'''
+Buatlah deklarasi sebuah variabel berisi daftar riwayat sekolah anda (SD sampai SMA/sederajat), dimana setiap riwayat sekolah (elemen pada daftar) disimpan dalam struktur data dictionary dengan kandungan informasi berupa: nama sekolah, alamat sekolah, dan tahun lulus. 
+'''
+
+riwayat_sekolah = [
+
+{
+"Nama_sekolah" : "SDN 2 Kelayu Selatan",
+"Alamat_sekolah" : "Jln. Kelayu",
+"Tahun_lulus" : 2015
+},
+{
+"Nama_sekolah" : "MTS Mu'alimat Nw Kelayu",
+"Alamat_sekolah" : "Jln. Kelayu",
+"Tahun_lulus" : 2018
+},
+{
+"Nama_sekolah" : "SMKN 2 Selong",
+"Alamat_sekolah" : "Sukamulia",
+"Tahun_lulus" : 2021
+}
+]
+
+print("Riwayat sekolah SD:")
+print("Nama Sekolah:", riwayat_sekolah[0]["Nama_sekolah"])
+print("Alamat Sekolah:", riwayat_sekolah[0]["Alamat_sekolah"])
+print("Tahun Lulus:", riwayat_sekolah[0]["Tahun_lulus"])
