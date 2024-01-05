@@ -1,0 +1,17 @@
+class Pasien:
+    def __init__(self,nama,jenis_kelamin,keluhan,tanggal_datang,jam_kedatangan):
+        self.nama = nama
+        self.jenis_kelamin = jenis_kelamin
+        self.keluhan = keluhan
+        self.tanggal_datang = tanggal_datang
+        self.jam_kedatangan = jam_kedatangan
+
+
+
+from class_Pasien import Pasien
+
+pasien1 = Pasien("Tari","Perempuan","Batuk",28112023,10.35)
+pasien2 = Pasien("Izzul","Laki-laki","Sakit kepala",30112023,11.00)
+
+print(f"Nama pasien {pasien1.nama} jenis kelamin {pasien1.jenis_kelamin} dengan keluhan {pasien1.keluhan} tanggal datang {pasien1.tanggal_datang} jam {pasien1.jam_kedatangan}")
+print(f"Nama pasien {pasien2.nama} jenis kelamin {pasien2.jenis_kelamin} dengan keluhan {pasien2.keluhan} tanggal datang {pasien2.tanggal_datang} jam {pasien2.jam_kedatangan}")
