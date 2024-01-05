@@ -1,0 +1,16 @@
+class AnggotaKeluarga:
+    def __init__(self, nama, peran, jenis_kelamin, usia):
+        self.nama = nama
+        self.peran = peran
+        self.jenis_kelamin = jenis_kelamin
+        self.usia = usia
+
+
+from class_AnggotaKeluarga import AnggotaKeluarga
+
+anggota1 = AnggotaKeluarga("Kholiza","Anak","Perempuan",20)
+anggota2 = AnggotaKeluarga("Halimatussadiyah","Ibu","Perempuan",45)
+
+print(f"Nama {anggota1.nama} peran {anggota1.peran} jenis kelamin {anggota1.jenis_kelamin} usia {anggota1.usia}")
+print(f"Nama {anggota2.nama} peran {anggota2.peran} jenis kelamin {anggota2.jenis_kelamin} usia {anggota2.usia}")
+
